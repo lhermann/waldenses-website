@@ -1,0 +1,144 @@
+---
+layout:     page
+title:      Anmeldung
+permalink:  /anmeldung/
+
+#-Name
+#-Vorname
+#-Geschlecht "m" oder "w" (ankreuzen)
+#-Geburtsdatum
+#-Telefon
+#-Email
+#-Wohnort
+#-Woche: 06-13.08.2017 und/oder 13.-20.08.2017 (ankreuzen)
+#-Unterkunft: Berghaus (Mehrbettzimmer) oder Zelt (ankreuzen)
+---
+
+<form id="registrationForm" class="c-form" action="https://getsimpleform.com/messages?form_api_token=1ba571217f3d51d93de6645773af1257" method="post">
+    <input type='hidden' name='redirect_to' value='http://127.0.0.1:4000/anmeldung/' />
+
+    <fieldset>
+
+        <legend>Persönliche Informationen</legend>
+
+        <ul class="o-layout">
+            <li class="o-layout__item u-1/2@tablet">
+                <label class="c-form__label" for="first-name">Vorname <sup>*</sup></label>
+                <input type="text" id="first-name" name="Vorname" autocomplete="first-name" required>
+            </li>
+            <li class="o-layout__item u-1/2@tablet">
+                <label class="c-form__label" for="last-name">Nachname <sup>*</sup></label>
+                <input type="text" id="last-name" name="Nachname" autocomplete="last-name" required>
+            </li>
+            <li class="o-layout__item u-1/2@tablet">
+                <div class="c-form__label">Geschlecht <sup>*</sup></div>
+                <div class="c-form__radio-group">
+                    <label class="c-form__radio-btn" for="male"><input id="male" type="radio" name="Geschlecht" value="M" required> Männlich</label><!--
+                    --><label class="c-form__radio-btn" for="female"><input id="female" type="radio" name="Geschlecht" value="F" required> Weiblich</label>
+                </div>
+            </li>
+            <li class="o-layout__item u-1/2@tablet">
+                <label class="c-form__label" for="birthdate">Geburtsdatum <sup>*</sup></label>
+                <input type="date" class="u-1/1" id="birthdate" name="Geburtsdatum" autocomplete="bday birthday date-of-birth" placeholder="XX.XX.XXXX" required>
+            </li>
+        </ul>
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Kontaktdaten</legend>
+
+        <div class="o-layout">
+            <ul class="o-layout__item u-1/2@tablet">
+
+                <li>
+                    <label class="c-form__label" for="email">E-Mail <sup>*</sup></label>
+                    <input type="email" class="u-1/1" id="email" name="E-Mail" autocomplete="home email" required>
+                </li>
+                <li>
+                    <label class="c-form__label" for="phone">Telefon</label>
+                    <input type="tel" id="phone" name="Telefon" autocomplete="home tel phone home-phone">
+                </li>
+
+            </ul>
+            <div class="o-layout__item u-1/2@tablet">
+                <ul class="o-layout">
+
+                    <li class="o-layout__item">
+                        <label class="c-form__label" for="address">Adresse <sup>*</sup></label>
+                        <input type="text" id="address" name="address" autocomplete="address street-address" required>
+                    </li>
+                    <li class="o-layout__item u-1/4@tablet">
+                        <label class="c-form__label" for="zipcode">PLZ <sup>*</sup></label>
+                        <input type="number" id="zipcode" name="PLZ" autocomplete="postal-code" required minlength="5" maxlength="5">
+                    </li>
+                    <li class="o-layout__item u-3/4@tablet">
+                        <label class="c-form__label" for="city">Stadt <sup>*</sup></label>
+                        <input type="text" id="city" name="Stadt" autocomplete="city address-level2" required>
+                    </li>
+                    <li class="o-layout__item">
+                        <label class="c-form__label" for="country">Land <sup>*</sup></label>
+                        <input type="text" id="country" name="Land" autocomplete="country-name" value="Deutschland" required>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Buchungsoptionen</legend>
+
+        <ul class="o-layout">
+            <li class="o-layout__item u-1/2@tablet">
+                <div class="c-form__label">Unterbringung <sup>*</sup></div>
+                <div class="c-form__radio-group c-form__radio-group--vertical">
+                    <label class="c-form__radio-btn" for="berghaus">
+                        <input id="berghaus" type="radio" name="Unterbringung" value="Berghaus" required> 205,00 € – Berghaus (Mehrbettzimmer)
+                    </label><!--
+                    --><label class="c-form__radio-btn" for="zelt">
+                        <input id="zelt" type="radio" name="Unterbringung" value="Zelt" required> 140,00 € – Zelt
+                    </label>
+                </div>
+            </li>
+            <li class="o-layout__item u-1/2@tablet">
+                <div class="c-form__label">Woche <sup>*</sup></div>
+                <div class="c-form__radio-group c-form__radio-group--vertical">
+                    <label class="c-form__radio-btn" for="week1">
+                        <input id="week1" type="radio" name="Woche" value="06.-13.08." required> 06. - 13.08.2017
+                    </label><!--
+                    --><label class="c-form__radio-btn" for="week2">
+                        <input id="week2" type="radio" name="Woche" value="13.-20.08." required> 13. - 20.08.2017
+                    </label><!--
+                    --><label class="c-form__radio-btn" for="week3">
+                        <input id="week3" type="radio" name="Woche" value="06.-13.08. & 13.-20.08." required> 06. - 13.08.2017 und 13. - 20.08.2017
+                    </label>
+                </div>
+            </li>
+        </ul>
+
+        <p class="u-margin-bottom-none">Kinder sind Ermäßigt.</p>
+
+    </fieldset>
+
+    <div class="o-layout">
+
+        <div class="o-layout__item u-1/2@tablet u-margin-bottom">
+
+            <input class="u-hidden-visually" name='content' type='text' />
+            <p>Mit <sup>*</sup> markierte felder sind Pflichtfelder.</p>
+            <button type="submit" class="c-btn c-btn--primary c-btn--ghost">Anmeldung absenden</button>
+
+        </div>
+        <div class="o-layout__item u-1/2@tablet">
+
+            <p>Kontakt bei Fragen:<br>Markus Witte, <a href="mailto:registrierung@waldensians.org">registrierung@waldensians.org</a></p>
+
+        </div>
+
+    </div>
+
+</form>

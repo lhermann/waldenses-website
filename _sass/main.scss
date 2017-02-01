@@ -1,0 +1,153 @@
+/* ==========================================================================
+   INUITCSS
+   ========================================================================== */
+
+/**
+ * inuitcss, by @csswizardry
+ *
+ * github.com/inuitcss | inuitcss.com
+ */
+
+
+// SETTINGS
+@import 'settings.config';
+@import '../node_modules/inuitcss/settings/settings.core';
+@import 'settings.global';
+@import '../node_modules/open-color/open-color';
+@import 'settings.colors';
+
+// Reassign `$inuit-global-spacing-unit` to `$unit`.
+$unit: $inuit-global-spacing-unit;
+
+
+
+
+
+// TOOLS
+@import '../node_modules/inuitcss/tools/tools.rem';
+@import '../node_modules/inuitcss/tools/tools.font-size';
+@import '../node_modules/inuitcss/tools/tools.clearfix';
+@import '../node_modules/inuitcss/tools/tools.hidden';
+@import '../node_modules/sass-mq/mq';
+
+// Reassign lengthy font-size mixin to `font-size()`.
+@mixin font-size($args...) {
+  @include inuit-font-size($args...);
+}
+
+@mixin font($family) {
+    @if $family == primary {
+        font-family: $font-primary;
+    } @else {
+        font-family: $font-secondary;
+    }
+}
+
+
+
+// GENERIC
+@import '../node_modules/inuitcss/generic/generic.box-sizing';
+@import '../node_modules/inuitcss/generic/generic.normalize';
+@import '../node_modules/inuitcss/generic/generic.reset';
+@import '../node_modules/inuitcss/generic/generic.shared';
+
+html {
+    background-attachment: fixed;
+    background-color: $color-background;
+    background-image: linear-gradient(to bottom, rgba($color-black, .7), rgba($color-black, .7)), url('../img/bg.jpg');
+    background-size: cover;
+}
+
+html,
+body {
+    @include font(primary);
+    color: $color-copy;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @include font(secondary);
+    font-weight: normal;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid $color-secondary;
+}
+
+a {
+    color: $color-copy;
+    transition: color $global-transition;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $color-primary;
+    }
+}
+
+
+
+
+// ELEMENTS
+@import '../node_modules/inuitcss/elements/elements.page';
+@import '../node_modules/inuitcss/elements/elements.headings';
+@import '../node_modules/inuitcss/elements/elements.images';
+@import '../node_modules/inuitcss/elements/elements.tables';
+@import 'elements.forms';
+
+
+
+
+
+// OBJECTS
+$inuit-wrapper-width: 970px;
+@import '../node_modules/inuitcss/objects/objects.wrapper';
+@import '../node_modules/inuitcss/objects/objects.layout';
+@import '../node_modules/inuitcss/objects/objects.media';
+@import '../node_modules/inuitcss/objects/objects.flag';
+@import '../node_modules/inuitcss/objects/objects.list-bare';
+@import '../node_modules/inuitcss/objects/objects.list-inline';
+@import '../node_modules/inuitcss/objects/objects.box';
+@import '../node_modules/inuitcss/objects/objects.block';
+@import '../node_modules/inuitcss/objects/objects.ratio';
+@import '../node_modules/inuitcss/objects/objects.crop';
+@import '../node_modules/inuitcss/objects/objects.tables';
+@import '../node_modules/inuitcss/objects/objects.pack';
+
+
+
+
+
+// COMPONENTS
+@import 'components.page-container';
+@import 'components.hero';
+// @import 'components.site-footer';
+@import 'components.buttons';
+@import 'components.forms';
+@import 'components.jquery-ui';
+
+
+// PLUGINS
+@import 'plugins.featherlight';
+@import 'plugins.animate';
+
+
+
+// UTILITIES
+@import '../node_modules/inuitcss/utilities/utilities.clearfix';
+$inuit-offsets: true;
+@import '../node_modules/inuitcss/utilities/utilities.widths';
+@import '../node_modules/inuitcss/utilities/utilities.headings';
+@import '../node_modules/inuitcss/utilities/utilities.spacing';
+@import '../node_modules/inuitcss/utilities/utilities.print';
+@import '../node_modules/inuitcss/utilities/utilities.hide';
+@import 'utilities.orientation';
+@import 'utilities.owl';
+
+
