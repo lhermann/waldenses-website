@@ -22,16 +22,36 @@
         font-weight: bold;
     }
 
-// .c-form__radio-group {
+@mixin radio-group--vertical {
+    .c-form__radio-btn {
+        border-width: 1px; // has to come first
+        border-bottom-width: 0;
+        display: block;
 
-// }
+        &:first-child {
+            border-radius: $global-radius $global-radius 0 0;
+        }
+
+        &:last-child {
+            border-bottom-width: 1px;
+            border-radius: 0 0 $global-radius $global-radius;
+        }
+
+    }
+}
+
+.c-form__radio-group {
+    @include mq($until: tablet) {
+        @include radio-group--vertical;
+    }
+}
 
     .c-form__radio-btn {
         border: 1px solid $color-copy;
         border-right-width: 0;
         cursor: pointer;
-        font-weight: normal;
         display: inline-block;
+        font-weight: normal;
         padding: $unit / 4 $unit / 2;
 
         >input {
@@ -49,21 +69,6 @@
 
     }
 
-
 .c-form__radio-group--vertical {
-    .c-form__radio-btn {
-        border-width: 1px;
-        border-bottom-width: 0;
-        display: block;
-
-        &:first-child {
-            border-radius: $global-radius $global-radius 0 0;
-        }
-
-        &:last-child {
-            border-bottom-width: 1px;
-            border-radius: 0 0 $global-radius $global-radius;
-        }
-
-    }
+    @include radio-group--vertical;
 }

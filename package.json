@@ -1,5 +1,5 @@
 {
-  "name": "waldensians",
+  "name": "waldenses",
   "version": "1.0.0",
   "description": "Website",
   "main": "index.html",
@@ -17,6 +17,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lhermann/waldensians.git"
+    "url": "https://github.com/lhermann/waldenses-website.git"
   }
 }

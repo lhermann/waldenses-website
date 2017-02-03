@@ -7,7 +7,7 @@ form {
     fieldset {
         border: 1px solid $oc-gray-6;
         border-radius: $global-radius;
-        padding: $unit;
+        padding: $unit/2 $unit $unit;
     }
 
     legend {
@@ -21,13 +21,10 @@ form {
     ul {
         list-style: none;
         margin: 0;
-
-        li {
-            margin-bottom: $unit / 2;
-        }
     }
 
-    input, {
+    input,
+    textarea {
         background-color: rgba($color-copy, .2);
         border: 1px solid $color-copy;
         border-radius: $global-radius;
@@ -45,5 +42,10 @@ form {
         &[type="checkbox"] {
             cursor: pointer;
         }
+    }
+
+    textarea {
+        min-height: $unit * 3;
+        width: 100%;
     }
 }

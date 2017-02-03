@@ -56,15 +56,8 @@ Unser Berghaus liegt im Wald nahe der Alpenstadt Torre Pellice und wurde vom Wal
 
 Unterkunft, Vollverpflegung (bio & vegan), Seilbahn & Museumsbesuch:
 
-* 205,00 € im Berghaus <sup>Ermäßigung für Kinder (0-3 Kostenlos; 4-11 50% Ermäßigung)</sup>
-* 140,00 € im Zelt <sup>Ermäßigung für Kinder (0-6 Kostenlos)</sup>
+* 205,00 € im Berghaus
+* 140,00 € im Zelt
+* Preise für Kinder siehe <a href="/anmeldung/">Preisübersicht</a>
 
 <sup>Pro Person / Woche</sup>
-
-
-<!-- <div class="featherlight" style="display: block;">
-    <div class="featherlight-content">
-        <button class="featherlight-close-icon featherlight-close" aria-label="Close">✕</button>
-        <img src="assets/images/droplets.jpg" alt="" class="featherlight-image featherlight-inner" style="width: 361.42857142857144px; height: 253px;">
-    </div>
-</div> -->

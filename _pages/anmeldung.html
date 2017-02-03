@@ -2,26 +2,61 @@
 layout:     page
 title:      Anmeldung
 permalink:  /anmeldung/
-
-#-Name
-#-Vorname
-#-Geschlecht "m" oder "w" (ankreuzen)
-#-Geburtsdatum
-#-Telefon
-#-Email
-#-Wohnort
-#-Woche: 06-13.08.2017 und/oder 13.-20.08.2017 (ankreuzen)
-#-Unterkunft: Berghaus (Mehrbettzimmer) oder Zelt (ankreuzen)
 ---
 
-<form id="registrationForm" class="c-form" action="https://getsimpleform.com/messages?form_api_token=1ba571217f3d51d93de6645773af1257" method="post">
-    <input type='hidden' name='redirect_to' value='http://127.0.0.1:4000/anmeldung/' />
+<form id="registrationForm" class="c-form" action="https://getsimpleform.com/messages?form_api_token=a86e06c423eea17e2c269e9a7bd12e7c" method="post">
+    <input type='hidden' name='redirect_to' value='http://www.waldenses.org/empfangsbestaetigung/' />
+
+    <fieldset>
+
+        <legend>Preisübersicht</legend>
+
+        <div class="u-owl">
+            <table class="c-table c-table--pricing u-content-left">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Im Berghaus<br><small>Mehrbettzimmer: 4, 6, und 8 Pers.</small></th>
+                        <th>Im Zelt:</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Erwachsene<br><small>und Kinder ab 12 Jahren</small></th>
+                        <td>205,00 €</td>
+                        <td>140,00 €</td>
+                    </tr>
+                    <tr>
+                        <th>Kinder 8-11 Jahre</th>
+                        <td>150,00 €</td>
+                        <td>80,00 €</td>
+                    </tr>
+                    <tr>
+                        <th>Kinder 4-7 Jahre</th>
+                        <td>120,00 €</td>
+                        <td>50,00 €</td>
+                    </tr>
+                    <tr>
+                        <th>Kinder 0-3 Jahre</th>
+                        <td>kostenlos<br><small>wenn eigenes Bett mitgebracht wird</small></td>
+                        <td>kostenlos</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p class="u-text-small">Sollten sich Teilnehmer eine Unterkunft in einer Pension wünschen, empfehlen wir die Foresteria Valdese in Torre Pellice. Preise und Reservierung unter: <a href="http://www.foresteriatorre.org/index.php?lang=de">www.foresteriatorre.org</a>
+            <br>Bitte diese Option vorher mit der Reiseleitung abstimmen.</p>
+
+            <p class="u-text-small">Die Anreise erfolgt privat mit eigenen Fahrzeugen. Wer mit der Bahn bis Pinerolo reisen möchte, kann dort vom Bahnhof abgeholt werden.</p>
+        </div>
+
+    </fieldset>
 
     <fieldset>
 
         <legend>Persönliche Informationen</legend>
 
-        <ul class="o-layout">
+        <ul class="o-layout u-owl u-owl--small">
             <li class="o-layout__item u-1/2@tablet">
                 <label class="c-form__label" for="first-name">Vorname <sup>*</sup></label>
                 <input type="text" id="first-name" name="Vorname" autocomplete="first-name" required>
@@ -49,8 +84,8 @@ permalink:  /anmeldung/
 
         <legend>Kontaktdaten</legend>
 
-        <div class="o-layout">
-            <ul class="o-layout__item u-1/2@tablet">
+        <div class="o-layout u-owl u-owl--small">
+            <ul class="o-layout__item u-1/2@tablet u-owl u-owl--small">
 
                 <li>
                     <label class="c-form__label" for="email">E-Mail <sup>*</sup></label>
@@ -63,17 +98,17 @@ permalink:  /anmeldung/
 
             </ul>
             <div class="o-layout__item u-1/2@tablet">
-                <ul class="o-layout">
+                <ul class="o-layout u-owl u-owl--small">
 
                     <li class="o-layout__item">
                         <label class="c-form__label" for="address">Adresse <sup>*</sup></label>
-                        <input type="text" id="address" name="address" autocomplete="address street-address" required>
+                        <input type="text" id="address" name="Adresse" autocomplete="address street-address" required>
                     </li>
-                    <li class="o-layout__item u-1/4@tablet">
+                    <li class="o-layout__item u-1/3@tablet">
                         <label class="c-form__label" for="zipcode">PLZ <sup>*</sup></label>
                         <input type="number" id="zipcode" name="PLZ" autocomplete="postal-code" required minlength="5" maxlength="5">
                     </li>
-                    <li class="o-layout__item u-3/4@tablet">
+                    <li class="o-layout__item u-2/3@tablet">
                         <label class="c-form__label" for="city">Stadt <sup>*</sup></label>
                         <input type="text" id="city" name="Stadt" autocomplete="city address-level2" required>
                     </li>
@@ -92,15 +127,15 @@ permalink:  /anmeldung/
 
         <legend>Buchungsoptionen</legend>
 
-        <ul class="o-layout">
+        <ul class="o-layout u-owl u-owl--small">
             <li class="o-layout__item u-1/2@tablet">
                 <div class="c-form__label">Unterbringung <sup>*</sup></div>
                 <div class="c-form__radio-group c-form__radio-group--vertical">
                     <label class="c-form__radio-btn" for="berghaus">
-                        <input id="berghaus" type="radio" name="Unterbringung" value="Berghaus" required> 205,00 € – Berghaus (Mehrbettzimmer)
+                        <input id="berghaus" type="radio" name="Unterbringung" value="Berghaus" required> Berghaus (Mehrbettzimmer)
                     </label><!--
                     --><label class="c-form__radio-btn" for="zelt">
-                        <input id="zelt" type="radio" name="Unterbringung" value="Zelt" required> 140,00 € – Zelt
+                        <input id="zelt" type="radio" name="Unterbringung" value="Zelt" required> Zelt
                     </label>
                 </div>
             </li>
@@ -118,27 +153,27 @@ permalink:  /anmeldung/
                     </label>
                 </div>
             </li>
+            <li class="o-layout__item">
+                <label class="c-form__label" for="comment">Kommentar</label>
+                <textarea id="comment" name='content' placeholder="Fragen bitte separat an die unten angegebene Email senden"></textarea>
+            </li>
         </ul>
-
-        <p class="u-margin-bottom-none">Kinder sind Ermäßigt.</p>
 
     </fieldset>
 
-    <div class="o-layout">
+    <p class="">Mit <sup>*</sup> markierte felder sind Pflichtfelder.</p>
 
-        <div class="o-layout__item u-1/2@tablet u-margin-bottom">
-
-            <input class="u-hidden-visually" name='content' type='text' />
-            <p>Mit <sup>*</sup> markierte felder sind Pflichtfelder.</p>
-            <button type="submit" class="c-btn c-btn--primary c-btn--ghost">Anmeldung absenden</button>
-
+    <div class="o-layout u-owl u-owl--bottom">
+        <div class="o-layout__item u-1/3@tablet">
+            <button type="submit" class="c-btn c-btn--primary">Anmeldung absenden</button>
         </div>
-        <div class="o-layout__item u-1/2@tablet">
-
-            <p>Kontakt bei Fragen:<br>Markus Witte, <a href="mailto:registrierung@waldensians.org">registrierung@waldensians.org</a></p>
-
+        <div class="o-layout__item u-1/3@tablet">
+            <a href="/zahlungsinformationen/" class="c-btn c-btn--primary c-btn--ghost">Zahlungsinformationen</a>
         </div>
-
+        <div class="o-layout__item u-1/3@tablet">
+            Kontakt bei Fragen: Markus Witte
+            <noscript defuscate data-name="freizeit" data-domain="waldensians.org"><em>Diese E-Mail-Adresse ist durch JavaScript geschützt</em></noscript>
+        </div>
     </div>
 
 </form>
