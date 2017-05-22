@@ -15,7 +15,7 @@ backlink:   /anmeldung
 
 ## Anmelde&shy;informationen
 
-Bitte beachte, dass die Anmeldung erst nach dem Zahlungseingang gültig wird. Die Zahlung erfolgt auf das Bankkonto der Baden-Württembergischen Vereinigung der STA.
+Bitte beachte, dass die Anmeldung erst nach dem Zahlungseingang gültig wird. Die Zahlung erfolgt auf das Bankkonto der Baden-Württembergischen Vereinigung der Freikirche der Siebenten-Tags-Adventisten.
 
 Um es technisch einfach zu halten versenden wir keine separaten Empfangsbestätigung per E-Mail.
 
@@ -23,6 +23,7 @@ Um es technisch einfach zu halten versenden wir keine separaten Empfangsbestäti
 
     Freikirche der STA
     Volksbank Stuttgart
-    IBAN DE79 6009 0100 0227 3910 12
+    BIC: VOBADESSXXX
+    IBAN: DE79 6009 0100 0227 3910 12
 
 Als Verwendungszweck bitte ```Waldenser1-NAME-14022``` (für die erste Woche) bzw. ```Waldenser2-NAME-14022``` (für die zweite Woche) verwenden und ```NAME``` mit dem vollständigen Namen ersetzen.

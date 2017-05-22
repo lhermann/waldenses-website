@@ -18,7 +18,7 @@ backlink:
 ## Kontakt:
 
 - Telefon: +49 174 3316232
-- E-Mail: <noscript defuscate data-name="freizeit" data-domain="waldensians.org"><em>Diese E-Mail-Adresse ist durch JavaScript geschützt</em></noscript>
+- E-Mail: <noscript defuscate data-name="info" data-domain="waldenses.org"><em>Diese E-Mail-Adresse ist durch JavaScript geschützt</em></noscript>
 
 ## Haftungsausschluss (Disclaimer)
 

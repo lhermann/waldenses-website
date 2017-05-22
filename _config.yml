@@ -37,7 +37,10 @@ exclude:
   - Gemfile.lock
   - node_modules
   - serve.sh
-  # - wordpress
+  - package.json
 
 # keep_files:
 #   - wordpress
+
+sass:
+  style: compressed
