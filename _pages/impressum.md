@@ -3,6 +3,10 @@ layout:     page
 title:      Impressum
 permalink:  /impressum/
 backlink:
+background: {
+    side: "sabbath",
+    img: "/assets/img/bg1-sabbath.jpg"
+}
 ---
 
 # Impressum

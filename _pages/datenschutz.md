@@ -3,6 +3,10 @@ layout:     page
 title:      Datenschutzerklärung
 permalink:  /datenschutzerklaerung/
 backlink:
+background: {
+    side: "sabbath",
+    img: "/assets/img/bg1-sabbath.jpg"
+}
 ---
 
 # Datenschutz&shy;erklärung

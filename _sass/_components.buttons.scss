@@ -37,55 +37,55 @@
    ========================================================================== */
 
 .c-btn--primary {
-  background-color: $color-btn-bg;
+  background-color: $c-btn-bg;
 
   &,
   &:hover,
   &:active,
   &:focus {
-    color: $color-btn;
+    color: $c-btn;
     text-decoration: none; /* [4] */
   }
 
   &:hover,
   &:focus {
-    background-color: $color-btn-bg-hover;
+    background-color: $c-btn-bg-hover;
   }
 
 }
 
 .c-btn--secondary {
-  background-color: $color-secondary-btn-bg;
+  background-color: $c-secondary-btn-bg;
 
   &,
   &:hover,
   &:active,
   &:focus {
-    color: $color-secondary-btn;
+    color: $c-secondary-btn;
     text-decoration: none;
   }
 
   &:hover,
   &:focus {
-    background-color: $color-secondary-btn-bg-hover;
+    background-color: $c-secondary-btn-bg-hover;
   }
 
 }
 
 .c-btn--tertiary {
-  background-color: $color-tertiary-btn-bg;
+  background-color: $c-tertiary-btn-bg;
 
   &,
   &:hover,
   &:active,
   &:focus {
-    color: $color-tertiary-btn;
+    color: $c-tertiary-btn;
     text-decoration: none;
   }
 
   &:hover,
   &:focus {
-    background-color: $color-tertiary-btn-bg-hover;
+    background-color: $c-tertiary-btn-bg-hover;
   }
 
 }
@@ -103,6 +103,10 @@
 
 .c-btn--large {
   padding: inuit-rem($inuit-global-spacing-unit) inuit-rem($inuit-global-spacing-unit-large);
+}
+
+.c-btn--block {
+  display: block;
 }
 
 
@@ -138,31 +142,31 @@ $btn-ghost-border-width: 1px;
   }
 
   &.c-btn--primary {
-    color: $color-btn-bg;
+    color: $c-btn-bg;
 
     &:hover,
     &:focus {
-      color: $color-btn-bg-hover;
+      color: $c-btn-bg-hover;
     }
 
   }
 
   &.c-btn--secondary {
-    color: $color-secondary-btn-bg;
+    color: $c-secondary-btn-bg;
 
     &:hover,
     &:focus {
-      color: $color-secondary-btn-bg-hover;
+      color: $c-secondary-btn-bg-hover;
     }
 
   }
 
   &.c-btn--tertiary {
-    color: $color-tertiary-btn-bg;
+    color: $c-tertiary-btn-bg;
 
     &:hover,
     &:focus {
-      color: $color-tertiary-btn-bg-hover;
+      color: $c-tertiary-btn-bg-hover;
     }
 
   }

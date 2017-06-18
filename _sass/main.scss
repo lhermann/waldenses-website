@@ -10,25 +10,29 @@
 
 
 // SETTINGS
-@import 'settings.config';
-@import '../node_modules/inuitcss/settings/settings.core';
-@import 'settings.global';
-@import '../node_modules/open-color/open-color';
-@import 'settings.colors';
+@import "settings.config";
+@import "../node_modules/inuitcss/settings/settings.core";
+@import "settings.global";
+@import "../node_modules/open-color/open-color";
+@import "settings.colors";
 
 // Reassign `$inuit-global-spacing-unit` to `$unit`.
-$unit: $inuit-global-spacing-unit;
+$unit-tiny:     $inuit-global-spacing-unit-tiny;
+$unit-small:    $inuit-global-spacing-unit-small;
+$unit:          $inuit-global-spacing-unit;
+$unit-large:    $inuit-global-spacing-unit-large;
+$unit-huge:     $inuit-global-spacing-unit-huge;
 
 
 
 
 
 // TOOLS
-@import '../node_modules/inuitcss/tools/tools.rem';
-@import '../node_modules/inuitcss/tools/tools.font-size';
-@import '../node_modules/inuitcss/tools/tools.clearfix';
-@import '../node_modules/inuitcss/tools/tools.hidden';
-@import '../node_modules/sass-mq/mq';
+@import "../node_modules/inuitcss/tools/tools.rem";
+@import "../node_modules/inuitcss/tools/tools.font-size";
+@import "../node_modules/inuitcss/tools/tools.clearfix";
+@import "../node_modules/inuitcss/tools/tools.hidden";
+@import "../node_modules/sass-mq/mq";
 
 // Reassign lengthy font-size mixin to `font-size()`.
 @mixin font-size($args...) {
@@ -46,23 +50,25 @@ $unit: $inuit-global-spacing-unit;
 
 
 // GENERIC
-@import '../node_modules/inuitcss/generic/generic.box-sizing';
-@import '../node_modules/inuitcss/generic/generic.normalize';
-@import '../node_modules/inuitcss/generic/generic.reset';
-@import '../node_modules/inuitcss/generic/generic.shared';
+@import "../node_modules/inuitcss/generic/generic.box-sizing";
+@import "../node_modules/inuitcss/generic/generic.normalize";
+@import "../node_modules/inuitcss/generic/generic.reset";
+@import "../node_modules/inuitcss/generic/generic.shared";
 
 html {
-    background-attachment: fixed;
-    background-color: $color-background;
-    background-image: linear-gradient(to bottom, rgba($color-black, .7), rgba($color-black, .7)), url('../img/bg.jpg');
-    background-size: cover;
+    // background-attachment: fixed;
+    background-color: $c-black;
+    // background-image: linear-gradient(to bottom, rgba($c-black, .7), rgba($c-black, .7)), url("../img/bg.jpg");
+    // background-size: cover;
 }
 
 html,
 body {
     @include font(primary);
-    color: $color-copy;
+    font-weight: 300;
+    position: relative;
     height: 100%;
+    color: $c-text;
 }
 
 h1,
@@ -77,24 +83,26 @@ h6 {
 
 hr {
     border: 0;
-    border-top: 1px solid $color-secondary;
+    border-top: 1px solid $c-secondary;
 }
 
 a {
-    color: $color-copy;
     transition: color $global-transition;
+    color: rgba($c-accent, .75);
+    text-decoration: none;
 
     &:hover,
     &:focus,
     &:active {
-        color: $color-primary;
+        // color: $c-accent;
+        text-decoration: underline;
     }
 }
 
 code {
     @include font(primary);
-    background-color: rgba($color-copy, .1);
-    border: 1px solid rgba($color-copy, .2);
+    background-color: rgba($c-text, .1);
+    border: 1px solid rgba($c-text, .2);
     border-radius: $global-radius;
     display: inline-block;
     line-height: 1.3;
@@ -109,11 +117,11 @@ code {
 
 
 // ELEMENTS
-@import '../node_modules/inuitcss/elements/elements.page';
-@import '../node_modules/inuitcss/elements/elements.headings';
-@import '../node_modules/inuitcss/elements/elements.images';
-@import '../node_modules/inuitcss/elements/elements.tables';
-@import 'elements.forms';
+@import "../node_modules/inuitcss/elements/elements.page";
+@import "../node_modules/inuitcss/elements/elements.headings";
+@import "../node_modules/inuitcss/elements/elements.images";
+@import "../node_modules/inuitcss/elements/elements.tables";
+@import "elements.forms";
 
 
 
@@ -121,50 +129,59 @@ code {
 
 // OBJECTS
 $inuit-wrapper-width: 970px;
-@import '../node_modules/inuitcss/objects/objects.wrapper';
-@import '../node_modules/inuitcss/objects/objects.layout';
-@import '../node_modules/inuitcss/objects/objects.media';
-@import '../node_modules/inuitcss/objects/objects.flag';
-@import '../node_modules/inuitcss/objects/objects.list-bare';
-@import '../node_modules/inuitcss/objects/objects.list-inline';
-@import '../node_modules/inuitcss/objects/objects.box';
-@import '../node_modules/inuitcss/objects/objects.block';
-@import '../node_modules/inuitcss/objects/objects.ratio';
-@import '../node_modules/inuitcss/objects/objects.crop';
-@import '../node_modules/inuitcss/objects/objects.tables';
-@import '../node_modules/inuitcss/objects/objects.pack';
+@import "../node_modules/inuitcss/objects/objects.wrapper";
+@import "../node_modules/inuitcss/objects/objects.layout";
+@import "../node_modules/inuitcss/objects/objects.media";
+@import "../node_modules/inuitcss/objects/objects.flag";
+@import "../node_modules/inuitcss/objects/objects.list-bare";
+@import "../node_modules/inuitcss/objects/objects.list-inline";
+@import "../node_modules/inuitcss/objects/objects.box";
+@import "../node_modules/inuitcss/objects/objects.block";
+@import "../node_modules/inuitcss/objects/objects.ratio";
+@import "../node_modules/inuitcss/objects/objects.crop";
+@import "../node_modules/inuitcss/objects/objects.tables";
+@import "../node_modules/inuitcss/objects/objects.pack";
 
-
+.o-box--vcenter {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
 
 
 // COMPONENTS
-@import 'components.page-container';
-@import 'components.hero';
-// @import 'components.site-footer';
-@import 'components.buttons';
-@import 'components.forms';
-@import 'components.jquery-ui';
-@import 'components.tables';
-@import 'components.alerts';
+@import "components.hero";
+// @import "components.site-footer";
+@import "components.buttons";
+@import "components.forms";
+@import "components.jquery-ui";
+@import "components.tables";
+@import "components.alerts";
+@import "components.background";
+@import "components.footer";
 
 
 // PLUGINS
-@import 'plugins.featherlight';
-@import 'plugins.animate';
+@import "plugins.featherlight";
+@import "plugins.animate";
 
 
 
 // UTILITIES
-@import '../node_modules/inuitcss/utilities/utilities.clearfix';
+@import "../node_modules/inuitcss/utilities/utilities.clearfix";
 $inuit-offsets: true;
-@import '../node_modules/inuitcss/utilities/utilities.widths';
-@import '../node_modules/inuitcss/utilities/utilities.headings';
-@import '../node_modules/inuitcss/utilities/utilities.spacing';
-@import '../node_modules/inuitcss/utilities/utilities.print';
-@import '../node_modules/inuitcss/utilities/utilities.hide';
-@import 'utilities.orientation';
-@import 'utilities.owl';
+$inuit-fractions: 1 2 3 7;
+@import "../node_modules/inuitcss/utilities/utilities.widths";
+@import "../node_modules/inuitcss/utilities/utilities.headings";
+@import "../node_modules/inuitcss/utilities/utilities.spacing";
+@import "../node_modules/inuitcss/utilities/utilities.print";
+@import "../node_modules/inuitcss/utilities/utilities.hide";
+@import "utilities.owl";
+
+.u-100-height {
+    height: 100%;
+}
 
 .u-text-small {
     font-size: 80%;
@@ -176,4 +193,35 @@ $inuit-offsets: true;
 
 .u-opacity-30 {
     opacity: .3;
+}
+
+.u-text-center {
+    text-align: center;
+}
+
+.u-block-center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.u-white {
+    color: $c-white;
+}
+
+.u-a {
+    color: rgba($c-text, .8);
+
+    &:hover,
+    &:focus {
+        color: $c-text;
+    }
+}
+
+.u-a-white {
+    color: rgba($c-white, .8);
+
+    &:hover,
+    &:focus {
+        color: $c-white;
+    }
 }

@@ -3,6 +3,10 @@ layout:     page
 title:      Zahlungsinformationen
 permalink:  /zahlungsinformationen/
 backlink:   /anmeldung
+background: {
+    side: "sabbath",
+    img: "/assets/img/bg1-sabbath.jpg"
+}
 ---
 
 # Zahlungs&shy;informationen

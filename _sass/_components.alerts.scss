@@ -6,19 +6,19 @@
     padding: $unit / 2 $unit;
     margin-bottom: $unit;
     border-radius: $global-radius;
-    border: 1px solid $color-primary;
-    color: $color-primary-lighter;
-    background-color: rgba($color-primary-darker, .2);
+    border: 1px solid $c-primary-darker;
+    color: $c-primary-darker;
+    background-color: rgba($c-primary-lighter, .2);
 }
 
 .alert--secondary {
-    border-color: $color-secondary;
-    color: $color-secondary-lighter;
-    background-color: rgba($color-secondary-darker, .4);
+    border-color: $c-secondary-darker;
+    color: $c-secondary-darker;
+    background-color: rgba($c-secondary-lighter, .4);
 }
 
 .alert--tertiary {
-    border-color: $color-tertiary;
-    color: $color-tertiary-lighter;
-    background-color: rgba($color-tertiary-darker, .4);
+    border-color: $c-tertiary-darker;
+    color: $c-tertiary-darker;
+    background-color: rgba($c-tertiary-lighter, .2);
 }

@@ -3,18 +3,18 @@
    ========================================================================== */
 .c-form {
     sup {
-        color: $color-alert;
+        color: $c-alert;
     }
 
     // jQuery Form Validation
     label.error {
-        color: $color-alert;
+        color: $c-alert;
         font-weight: normal;
     }
 
     // jQuery Form Validation
     input.error:not(:focus) {
-        background-color: rgba($color-alert, .2);
+        background-color: rgba($c-alert, .1);
     }
 }
 
@@ -47,7 +47,7 @@
 }
 
     .c-form__radio-btn {
-        border: 1px solid $color-copy;
+        border: 1px solid $c-text;
         border-right-width: 0;
         cursor: pointer;
         display: inline-block;

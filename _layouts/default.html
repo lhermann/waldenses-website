@@ -1,13 +1,22 @@
 <!DOCTYPE html>
-<html lang="de" class="page page--{{page.title | slugify}} {{layout.page-class}} {{page.page-class}} no-js">
+<html lang="de" class="c-page c-page--{{page.title | slugify}} {{layout.page-class}} {{page.page-class}} no-js">
 
     {% include head.html %}
 
     <body>
 
-        {{ content }}
+        {% include background.html %}
+
+        <main class="o-layout u-100-height">
+            <div class="o-layout__item u-6/7 u-100-height">
+
+                {{ content }}
+
+            </div>
+        </main>
 
         {% include foot.html %}
+
     </body>
 
 </html>

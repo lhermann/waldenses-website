@@ -4,7 +4,7 @@
 $nav-height: 60px;
 
 .site-nav {
-    border-bottom: 1px solid $color-primary;
+    border-bottom: 1px solid $c-primary;
 }
 
     .site-nav__child {
@@ -21,7 +21,7 @@ $nav-height: 60px;
      * [1] Because .site_nav--logo can be an <a> tag
      */
     .site-nav__logo {
-        background-color: $color-white;
+        background-color: $c-white;
         border-radius: 0 0 $global-radius $global-radius;
         display: inline-block; /* [1] */
         padding-left: $inuit-global-spacing-unit-small;
@@ -50,7 +50,7 @@ $nav-height: 60px;
         }
 
             .site-nav__link {
-                color: $color-dark;
+                color: $c-dark;
                 display: block;
                 font-weight: 400;
                 line-height: $nav-height - $inuit-global-spacing-unit-small * 2;
@@ -72,14 +72,14 @@ $nav-height: 60px;
                 }
 
                 &::before {
-                    border-bottom-color: $color-primary;
+                    border-bottom-color: $c-primary;
                     border-width: 12px;
                     bottom: -$inuit-global-spacing-unit-small;
                     margin-left: -12px;
                 }
 
                 &::after {
-                    border-bottom-color: $color-white;
+                    border-bottom-color: $c-white;
                     border-width: 12px;
                     bottom: -($inuit-global-spacing-unit-small + 1);
                     margin-left: -12px;
@@ -88,7 +88,7 @@ $nav-height: 60px;
 
             .page--about .site-nav__about,
             .page--pricing .site-nav__pricing {
-                color: $color-link;
+                color: $c-link;
 
                 &::before,
                 &::after {

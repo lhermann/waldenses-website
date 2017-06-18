@@ -2,6 +2,10 @@
 layout:     page
 title:      Mehr Informationen
 permalink:  /infos/
+background: {
+    side: "sabbath",
+    img: "/assets/img/bg3-sabbath.jpg"
+}
 ---
 
 ## Thema:
