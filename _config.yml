@@ -39,8 +39,5 @@ exclude:
   - serve.sh
   - package.json
 
-# keep_files:
-#   - wordpress
-
 sass:
   style: compressed
