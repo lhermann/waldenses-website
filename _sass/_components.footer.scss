@@ -3,12 +3,14 @@
    ========================================================================== */
 
 .c-footer {
-    width: 100%;
+    &--page {
+        margin: 0 $unit;
+        border-top: 1px solid $c-border;
+        padding-top: $unit;
+    }
 
     &--landing {
-        position: absolute;
-        bottom: 0;
-        width: 85.71%;
+        &,
         a {
             color: rgba($c-white, .6);
         }

@@ -40,4 +40,4 @@ exclude:
   - package.json
 
 sass:
-  style: compressed
+  # style: compressed

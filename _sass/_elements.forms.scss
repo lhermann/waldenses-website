@@ -25,7 +25,7 @@ form {
 
     input,
     textarea {
-        background-color: rgba($c-text, .1);
+        background-color: rgba($c-accent, .05);
         border: 1px solid $c-text;
         border-radius: $global-radius;
         box-shadow: inset 0 1px 2px rgba($c-black, .3);

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de" class="c-page c-page--{{page.title | slugify}}
+    {{layout.page-class}} {{page.page-class}} no-js">
+
+    {% include head.html %}
+
+    <body class="c-creation c-creation--{{page.background.side}}">
+
+        <div class="c-creation__week u-6/7"
+            style="background-image: url('{{page.background.img}}');">
+
+            {{ content }}
+
+        </div>
+
+        <div class="c-creation__sabbath u-1/7 u-orient-bottom"
+            style="background-image: url('{{page.background.img}}');">
+            <div class="c-creation__logo u-1/7">
+                {% include sda-logo.svg %}
+            </div>
+        </div>
+
+        {% include foot.html %}
+
+    </body>
+
+</html>
