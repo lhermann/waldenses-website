@@ -8,6 +8,7 @@
 
     .c-creation__week,
     .c-creation__sabbath {
+        transition: $global-transition;
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
@@ -15,7 +16,7 @@
     .c-creation__week {
         background-position: center center;
         background-size: cover;
-        min-height: 100%;
+        min-height: 110%;
 
         .c-creation--sabbath & {
             background: none !important;
