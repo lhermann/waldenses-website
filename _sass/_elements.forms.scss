@@ -7,7 +7,13 @@ form {
     fieldset {
         border: 1px solid $oc-gray-6;
         border-radius: $global-radius;
-        padding: $unit/2 $unit $unit;
+        padding: $unit-small $unit $unit;
+
+        @include mq($until: tablet) {
+            margin-right: -#{$unit-small};
+            margin-left: -#{$unit-small};
+            padding: $unit-small;
+        }
     }
 
     legend {
