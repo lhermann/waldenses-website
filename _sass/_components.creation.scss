@@ -16,7 +16,7 @@
     .c-creation__week {
         background-position: center center;
         background-size: cover;
-        min-height: 110%;
+        min-height: 100%;
 
         .c-creation--sabbath & {
             background: none !important;
@@ -27,7 +27,7 @@
     .c-creation__logo {
         position: fixed;
         right: 0;
-        bottom: 0;
+        bottom: -50px;
     }
 
     /*
