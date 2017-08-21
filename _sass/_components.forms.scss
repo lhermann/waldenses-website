@@ -16,6 +16,21 @@
     input.error:not(:focus) {
         background-color: rgba($c-alert, .1);
     }
+
+    &--disabled {
+        fieldset,
+        button {
+            opacity: .4;
+        }
+
+        input,
+        textarea,
+        button,
+        label {
+            cursor: default;
+            pointer-events: none;
+        }
+    }
 }
 
     .c-form__label {
