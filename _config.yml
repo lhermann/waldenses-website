@@ -29,6 +29,10 @@ markdown: kramdown
 gems:
   #- jekyll-feed
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
 include:
   - _pages
 
