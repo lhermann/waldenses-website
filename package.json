@@ -1,21 +1,21 @@
 {
-  "name": "waldenses",
-  "version": "1.0.0",
-  "description": "Website",
-  "main": "index.html",
-  "dependencies": {
-    "inuitcss": "^6.0.0-beta.4",
-    "open-color": "^1.5.1"
-  },
-  "devDependencies": {
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Lukas Hermann",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lhermann/waldenses-website.git"
-  }
+    "name": "waldenses",
+    "version": "1.0.0",
+    "description": "Website",
+    "main": "index.html",
+    "dependencies": {
+        "inuitcss": "^6.0.0-beta.4",
+        "open-color": "^1.5.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "bundle exec jekyll serve --incremental"
+    },
+    "author": "Lukas Hermann",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lhermann/waldenses-website.git"
+    }
 }

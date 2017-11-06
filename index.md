@@ -5,6 +5,7 @@
 layout: landing
 background: {
     side: "week",
-    img: "/assets/img/bg1-week.jpg"
+    img: "/assets/img/bg1-week.jpg",
+    css: "c-creation--darken-bg"
 }
 ---
