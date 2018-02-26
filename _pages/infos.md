@@ -10,13 +10,13 @@ background: {
 
 ## Thema:
 
-Zurück in die Zukunft!
+Lux lucet in tenebris – Ein Licht leuchtet in der Finsternis
 
 ## Infos:
 
-Im Reformationssommer 2017 präsentieren Kirchen aus aller Welt, internationale Institutionen, Organisationen, Initiativen und viele Kulturschaffende ihre aktuelle Sicht auf die Reformation. Wir gehen im Sommer 2017 auf Spurensuche im Piemont und wollen die Protestanten vor der Reformation kennenlernen. Wer waren die Waldenser, von denen Ellen G. White schreibt, dass die Menschheit nie ermessen wird, was sie zur Verteidigung der Wahrheit vollbracht haben? In den Cottischen Alpen wollen wir eine Reise „Zurück in die Zukunft“ erleben und aus der Geschichte für Morgen lernen; denn „wir haben für die Zukunft nichts zu befürchten, es sei denn wir vergessen wie Gott uns in der Vergangenheit geführt hat." Dieses bekannte Zitat schrieb Ellen G. White im Jahr 1860 in ihrem Buch Leben und Wirken.
+Lux lucet in tenebis – Hinter den hohen Bollwerken der piemontesischen Alpen leuchtete für viele Jahrhunderte durch Mittelalter und Neuzeit hindurch ein Licht in der Finsternis. Denn die Waldenser waren eine der ersten Volksgruppen Europas, die die Bibel in ihrer Muttersprache besaßen. Doch dadurch zogen sie sich Widerstand und Verfolgung seitens der römischen Kirche zu. Schutz fanden die Waldenser in den Bergen – ein Zufluchtsort, den Gott ihnen gegeben hatte.
 
-Wer in der Abgeschiedenheit eines originalen Waldenserhauses, in Höhlen, auf Bergtouren bis 3000 m Geschichte erleben und erfahren möchte, wer wie die Waldenser eine gesegnete Gemeinschaft mit Gott erleben und im gemeinsamen Gebet getragen werden möchte, der ist zu dieser Studienfahrt herzlich eingeladen. Unser Berghaus liegt im Wald nahe der Alpenstadt Torre Pellice und wurde vom Waldenser-Führer Giosuè Gianavello in der regionalen typischen Bauweise errichtet. Mehrere Mehrbettzimmer vermitteln Jugendherbergscharakter, das Haus verfügt über moderne Sanitäranlagen. Eine kleine Wiese hinter dem Haus bietet auch die Möglichkeit zum Campen. Wir freuen uns auf Dich!
+Wer in dieser Abgeschiedenheit der Berge, in Höhlen, auf Wanderungen bis auf 3000 m Geschichte erleben und erfahren will, wer wie die Waldenser eine einfache und gesegnete Gemeinschaft mit Gott erleben möchte, der ist zu dieser Freizeit herzlich eingeladen. Unser Berghaus liegt im Wald nahe der Alpenstadt Torre Pellice und wurde vom Waldenser-Führer Giosuè Gianavello in der regionalen typischen Bauweise errichtet. Mehrere Mehrbettzimmer vermitteln Jugendherbergscharakter, das Haus verfügt über moderne Sanitäranlagen; auch eine Wiese zum Campen hinter dem Haus erwarten Dich.
 
 ## Ort:
 
@@ -42,13 +42,12 @@ Wer in der Abgeschiedenheit eines originalen Waldenserhauses, in Höhlen, auf Be
     </ul>
 </p>
 
-
 ## Wer:
 
-* 06.-13.08.2017<sup>*</sup>: Bergtouren für Familien mit Kindern
-* 13.-20.08.2017<sup>*</sup>: Bergtouren für trittfeste Bergwanderer
+* 22.07. - 29.07.2018<sup>\*</sup>: Programm Bergwanderer / Erwachsene
+* 29.07. - 05.08.2018<sup>\*</sup>: Programm für Familien mit Kindern
 
-<sup>* Studienwochen sind auch kombiniert als 2-wöchige Studienfahrt buchbar.</sup>
+<sup>\* Studienwochen sind auch kombiniert als 2-wöchige Studienfahrt buchbar.</sup>
 
 ## Leiter:
 
@@ -59,8 +58,8 @@ Wer in der Abgeschiedenheit eines originalen Waldenserhauses, in Höhlen, auf Be
 
 Unterkunft, Vollverpflegung (bio & vegan), Seilbahn & Museumsbesuch:
 
-* 205,00 € im Berghaus
-* 140,00 € im Zelt
-* Preise für Kinder siehe <a href="/anmeldung/">Preisübersicht</a>
+* 275,00 € im Berghaus
+* 180,00 € im Zelt
+* Ermäßigung für Familien mit Kindern siehe <a href="/anmeldung/">Preisübersicht</a>
 
 <sup>Pro Person / Woche</sup>

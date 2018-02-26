@@ -10,7 +10,7 @@
     "devDependencies": {},
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "bundle exec jekyll serve --incremental"
+        "start": "bundle exec jekyll serve --incremental"
     },
     "author": "Lukas Hermann",
     "license": "MIT",
