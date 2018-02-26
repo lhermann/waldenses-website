@@ -7,37 +7,17 @@
 {% include_relative vendor/jquery.validate.messages_de.js %}
 
 /**
- * jQuery UI Date Picker
- */
-// $( function() {
-//     $( "#birthdate" ).datepicker({
-//         changeMonth: true,
-//         changeYear: true,
-//         dateFormat: "dd.mm.yy"
-//     });
-// } );
-
-/**
  * jQuery Form Validator
  */
-// Dates are rendered different in different browsers
-// $.validator.addMethod(
-//     "germanDate",
-//     function(value, element) {
-//         // put your own logic here, this is just a (crappy) example
-//         return value.match(/^\d\d?[\.\/]\d\d?[\.\/]\d\d\d\d$/);
-//     },
-//     "Bitte ein Datum im Format dd.mm.yyyy eingeben."
-// );
 $("#registrationForm").validate({
     rules: {
-        PLZ: {
+        plz: {
             required: true,
             digits: true,
             minlength: 5,
             maxlength: 5
         },
-        Geburtsdatum: {
+        geburtsdatum: {
             date: false
         }
     },
