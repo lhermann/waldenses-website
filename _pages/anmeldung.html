@@ -19,7 +19,7 @@ background: {
     <div class="alert alert--primary">
         <p class="u-margin-bottom-none"><strong>Termine für 2018:</strong></p>
         <ul class="u-margin-bottom-none">
-            <li>Woche 1: 22.07. &mdash; 29.07.2018 für Bergwanderer</li>
+            <li><del>Woche 1: 22.07. &mdash; 29.07.2018 für Bergwanderer</del> Die erste Woche wird dieses Jahr nicht statt finden.</li>
             <li>Woche 2: 29.07. &mdash; 05.08.2018 für Familien</li>
         </ul>
     </div>
@@ -163,14 +163,14 @@ background: {
             <li class="o-layout__item u-1/2@tablet">
                 <div class="c-form__label">Zeitraum <sup>*</sup></div>
                 <div class="c-form__radio-group c-form__radio-group--vertical">
-                    <label class="c-form__radio-btn" for="week1">
-                        <input id="week1" type="radio" name="zeitraum" value="22.07.-29.07." required> 22.07. - 29.07.2018
+                    <label class="c-form__radio-btn" for="week1" disabled>
+                        <input id="week1" type="radio" name="zeitraum" value="22.07.-29.07." required disabled> <del>22.07. - 29.07.2018 für Bergwanderer</del>
                     </label><!--
                     --><label class="c-form__radio-btn" for="week2">
-                        <input id="week2" type="radio" name="zeitraum" value="29.07.-05.08." required> 29.07. - 05.08.2018
+                        <input id="week2" type="radio" name="zeitraum" value="29.07.-05.08." required checked="checked"> 29.07. - 05.08.2018 für Familien
                     </label><!--
-                    --><label class="c-form__radio-btn" for="week3">
-                        <input id="week3" type="radio" name="zeitraum" value="22.07.-29.07. & 29.07.-05.08." required> 22.07. - 29.07.2018 und 29.07. - 05.08.2018
+                    --><label class="c-form__radio-btn" for="week3" disabled>
+                        <input id="week3" type="radio" name="zeitraum" value="22.07.-29.07. & 29.07.-05.08." required disabled> <del>22.07. - 29.07.2018 und 29.07. - 05.08.2018</del>
                     </label>
                 </div>
             </li>

@@ -69,6 +69,10 @@
         font-weight: normal;
         padding: $unit / 4 $unit / 2;
 
+        &[disabled] {
+            opacity: 0.5;
+        }
+
         >input {
             margin-right: $unit / 4;
         }
