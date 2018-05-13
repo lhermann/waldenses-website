@@ -176,6 +176,7 @@ $inuit-fractions: 1 2 3 7;
 @import "../node_modules/inuitcss/utilities/utilities.hide";
 @import "utilities.owl";
 @import "utilities.orientation";
+@import "utilities.icons";
 
 .u-100-height {
     height: 100%;
@@ -190,7 +191,7 @@ $inuit-fractions: 1 2 3 7;
 }
 
 .u-opacity-30 {
-    opacity: .3;
+    opacity: 0.3;
 }
 
 .u-text-center {
