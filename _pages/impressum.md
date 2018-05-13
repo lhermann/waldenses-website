@@ -15,14 +15,14 @@ background: {
 
 <ul class="o-list-bare">
     <li>Markus Witte</li>
-    <li>Klosterhofstr. 126</li>
-    <li>D-65931 Frankfurt am Main</li>
+    <li>Hainbrunner Weg 11</li>
+    <li>D-69434 Brombach</li>
 </ul>
 
 ## Kontakt:
 
-- Telefon: +49 174 3316232
-- E-Mail: <noscript defuscate data-name="info" data-domain="waldenses.org"><em>Diese E-Mail-Adresse ist durch JavaScript geschützt</em></noscript>
+*   Telefon: +49 174 3316232
+*   E-Mail: <noscript defuscate data-name="info" data-domain="waldenses.org"><em>Diese E-Mail-Adresse ist durch JavaScript geschützt</em></noscript>
 
 ## Haftungsausschluss (Disclaimer)
 
