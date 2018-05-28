@@ -124,18 +124,6 @@ Eine weitergehende Übermittlung der Daten erfolgt nicht bzw. nur dann, wenn Sie
 
 Grundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. b DSGVO, der die Verarbeitung von Daten zur Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen gestattet.
 
-## 4\. Plugins und Tools
-
-### Google Web Fonts
-
-Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts, die von Google bereitgestellt werden. Beim Aufruf einer Seite lädt Ihr Browser die benötigten Web Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen.
-
-Zu diesem Zweck muss der von Ihnen verwendete Browser Verbindung zu den Servern von Google aufnehmen. Hierdurch erlangt Google Kenntnis darüber, dass über Ihre IP-Adresse unsere Website aufgerufen wurde. Die Nutzung von Google Web Fonts erfolgt im Interesse einer einheitlichen und ansprechenden Darstellung unserer Online-Angebote. Dies stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar.
-
-Wenn Ihr Browser Web Fonts nicht unterstützt, wird eine Standardschrift von Ihrem Computer genutzt.
-
-Weitere Informationen zu Google Web Fonts finden Sie unter [https://developers.google.com/fonts/faq](https://developers.google.com/fonts/faq) und in der Datenschutzerklärung von Google: [https://www.google.com/policies/privacy/](https://www.google.com/policies/privacy/).
-
 # Privacy Policy
 
 ## 1\. An overview of data protection
@@ -251,15 +239,3 @@ We transmit personally identifiable data to third parties only to the extent req
 Your data will not be transmitted for any other purpose unless you have given your express permission to do so. Your data will not be disclosed to third parties for advertising purposes without your express consent.
 
 The basis for data processing is Art. 6 (1) (b) DSGVO, which allows the processing of data to fulfill a contract or for measures preliminary to a contract.
-
-## 4\. Plugins and tools
-
-### Google Web Fonts
-
-For uniform representation of fonts, this page uses web fonts provided by Google. When you open a page, your browser loads the required web fonts into your browser cache to display texts and fonts correctly.
-
-For this purpose your browser has to establish a direct connection to Google servers. Google thus becomes aware that our web page was accessed via your IP address. The use of Google Web fonts is done in the interest of a uniform and attractive presentation of our website. This constitutes a justified interest pursuant to Art. 6 (1) (f) DSGVO.
-
-If your browser does not support web fonts, a standard font is used by your computer.
-
-Further information about handling user data, can be found at [https://developers.google.com/fonts/faq](https://developers.google.com/fonts/faq) and in Google's privacy policy at [https://www.google.com/policies/privacy/](https://www.google.com/policies/privacy/).
